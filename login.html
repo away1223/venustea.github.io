@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="font/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.css">
+  <link rel="stylesheet" href="login.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập</title>
+  
+</head>
+<body>
+  <div class="wrapper"> 
+    <form action="">
+      <h1>Đăng nhập</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Email" required>
+        <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+      </div>
+<div class="input-box"> 
+      <input type="password"
+      placeholder="Mật khẩu" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" title="Ít nhất 8 ký tự, bao gồm ít nhất 1 chữ hoa, 1 chữ thường và 1 số.">
+      <i class="uil uil-eye pw_hide custom-cursor-on-hover"></i>
+      <i class="fa-solid fa-lock" style="color: #050505;"></i>
+    </div>
+      <div class="remember-forgot">
+      <label><input type="checkbox"> Lưu lại</label>
+      <a href="">Quên mật khẩu?</a>
+        </div>
+        <form id="login-form">
+        <button style="sumit" class="btn" >Đăng nhập</button>
+        <div class="register-link">
+          <p>Chưa có tài khoản? <a href="register.html">Tạo tài khoản</a></p>
+        </div>
+     
+    </form>
+  </div>
+</body>
+</html>
